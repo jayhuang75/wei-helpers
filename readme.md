@@ -1,4 +1,4 @@
-# go-worker-pool
+# wei-helpers
 [![Build Status](https://travis-ci.org/jayhuang75/wei-helpers.svg?branch=master)](https://travis-ci.org/jayhuang75/wei-helpers) [![codecov](https://codecov.io/gh/jayhuang75/wei-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/jayhuang75/wei-helpers)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jayhuang75/wei-helpers)](https://goreportcard.com/report/github.com/jayhuang75/wei-helpers)
 
@@ -17,6 +17,6 @@ import (
 
 #### Example how to use
 ```go
-	wei.Logging("info", fmt.Sprintf("[Main] Successful %d players info", len(players)))
+    wei.Logging("info", fmt.Sprintf("[Main] Successful %d players info", len(players)))
     wei.Logging("error", fmt.Sprintf("[Main] Marshal json failed: %s", err.Error()))
 ```
